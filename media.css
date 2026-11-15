@@ -1,0 +1,698 @@
+
+/* ================================
+   TABLET - 1024px
+================================ */
+
+@media (max-width: 1024px) {
+
+    .menuUstdiv {
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+    .menuUstdiv .UlEsasDiv {
+        gap: 20px;
+    }
+
+    .menuUstdiv .UlEsasDiv a {
+        font-size: 0.95rem;
+    }
+
+    .foodEsasDiv {
+        gap: 20px;
+        padding: 50px 25px;
+    }
+
+    .foodEsasDiv .foodBala1 > div > h2 {
+        font-size: 3.3rem;
+    }
+
+    .foodEsasDiv .foodBala2 img {
+        width: 95%;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas {
+        padding: 10px 25px;
+        gap: 25px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild1 {
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 {
+        width: 50%;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 .aboutChild2_ic1 {
+        gap: 20px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 .aboutChild2_ic2 img {
+        width: 100%;
+    }
+
+    .yummyEsas .yummyEsas2 {
+        width: 95%;
+        gap: 15px;
+    }
+
+    .yummyEsas .yummyEsas2 .yummy_cild {
+        width: 33.33%;
+        padding: 40px 15px;
+    }
+
+    .yummyEsas .yummyEsas2 .yummy_cild:nth-child(1) {
+        width: 45%;
+        padding: 30px 20px;
+    }
+
+    .chef_esas .chef_orta_esas {
+        gap: 20px;
+        padding: 40px 25px;
+    }
+
+    .chef_esas .chef_orta_esas .chef_orta {
+        width: calc(100% / 3);
+    }
+
+    .withUsEsas .withUsOrtaEsas {
+        width: 90%;
+    }
+
+    .contactEsas .contactXerite,
+    .contactEsas .contact-alt1,
+    .contactEsas .contact-finis {
+        width: 90%;
+    }
+
+    .finis .finis_ust {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .finis .finis_ust .finis_ust_child {
+        width: 40%;
+    }
+
+    .finis .finis_ust .finis_ust_sag_esas {
+        width: 40%;
+        margin-left: 0;
+    }
+}
+
+
+/* ================================
+   SMALL TABLET - 768px
+================================ */
+
+@media (max-width: 768px) {
+
+    .menuUstdiv {
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .menuUstdiv .UlEsasDiv {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .menuUstdiv .ustSolBtnDivEsas a {
+        font-size: 0.85rem;
+    }
+
+    .menuUstdiv .UlEsasDiv a {
+        font-size: 0.9rem;
+    }
+
+    .menuUstdiv .UlEsasDiv li .drop_down_menu {
+        right: auto;
+        width: 180px;
+        z-index: 1000;
+    }
+
+    .menuUstdiv .UlEsasDiv li .drop_down_menu .drop_down_menu2 {
+        right: 165px;
+        width: 180px;
+    }
+
+    .foodEsasDiv {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 50px 25px;
+    }
+
+    .foodEsasDiv .foodBala1 {
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .foodEsasDiv .foodBala1 > div > h2 {
+        font-size: 3.5rem;
+    }
+
+    .foodEsasDiv .foodBala1 h3 {
+        max-width: 550px;
+    }
+
+    .foodEsasDiv .foodBala2 img {
+        width: 75%;
+    }
+
+    .foodEsasDiv .foodBala1 .foodButtonDiv {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild1 {
+        width: 100%;
+        height: 550px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 {
+        width: 100%;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 .aboutChild2_ic2 {
+        width: 100%;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 .aboutChild2_ic2 img {
+        width: 100%;
+    }
+
+    .yummyEsas {
+        padding: 60px 0;
+    }
+
+    .yummyEsas .yummyEsas2 {
+        flex-wrap: wrap;
+    }
+
+    .yummyEsas .yummyEsas2 .yummy_cild,
+    .yummyEsas .yummyEsas2 .yummy_cild:nth-child(1) {
+        width: calc(50% - 10px);
+    }
+
+    .imgDivEsasOrta {
+        background-size: cover;
+    }
+
+    .testEasasDiv {
+        padding: 90px 20px;
+    }
+
+    .testEasasDiv .testEasasDiv2 {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .testEasasDiv .testEasasDiv2 .testSolDiv {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .testSagDiv {
+        width: 160px;
+        height: 160px;
+    }
+
+    .eventsEsasDiv .eventImgEsas {
+        background-size: cover;
+    }
+
+    .chef_esas .chef_orta_esas {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .chef_esas .chef_orta_esas .chef_orta {
+        width: calc(50% - 15px);
+    }
+
+    .chef_esas .chef_orta_esas .chef_orta img:nth-child(2) {
+        bottom: 280px;
+    }
+
+    .withUsEsas .withUsOrtaEsas {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .withUsEsas .withUsOrtaEsas img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .withUsEsas .withUsOrtaEsas .withUsOrtaEsasSag {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .withUsEsas .withUsOrtaEsas .withUsOrtaEsasSag .withUsOrtaEsasSag1 {
+        padding-top: 20px;
+    }
+
+    .withUsEsas .withUsOrtaEsas .withUsOrtaEsasSag .withUsOrtaEsasSag1 input {
+        width: calc(50% - 10px);
+    }
+
+    .withUsEsas .withUsOrtaEsas .withUsOrtaEsasSag .withUsOrtaEsasSag2 textarea {
+        width: 100%;
+    }
+
+    .contactEsas .contact-alt1 .contact-alt1-child {
+        width: 100%;
+    }
+
+    .contactEsas .contact-finis input {
+        width: 96%;
+    }
+
+    .contactEsas .contact-finis textarea {
+        width: 96%;
+    }
+
+    .finis .finis_ust .finis_ust_child,
+    .finis .finis_ust .finis_ust_sag_esas {
+        width: 45%;
+    }
+}
+
+
+/* ================================
+   MOBILE - 576px
+================================ */
+
+@media (max-width: 576px) {
+
+    .menuUstdiv {
+        justify-content: space-between;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .menuUstdiv .menuSolTxt h1 {
+        font-size: 1.7rem;
+    }
+
+    .menuUstdiv .UlEsasDiv {
+        gap: 15px;
+    }
+
+    .menuUstdiv .UlEsasDiv a {
+        font-size: 0.8rem;
+    }
+
+    .menuUstdiv .UlEsasDiv li i {
+        font-size: 0.9rem;
+    }
+
+    .menuUstdiv .ustSolBtnDivEsas a {
+        padding: 8px 14px;
+        font-size: 0.75rem;
+    }
+
+    .menuUstdiv .UlEsasDiv li .drop_down_menu {
+        left: auto;
+        right: 10px;
+        width: 170px;
+        padding: 15px;
+    }
+
+    .menuUstdiv .UlEsasDiv li .drop_down_menu .drop_down_menu2 {
+        right: 150px;
+        width: 160px;
+    }
+
+    .foodEsasDiv {
+        padding: 40px 20px;
+    }
+
+    .foodEsasDiv .foodBala2 img {
+        width: 100%;
+    }
+
+    .foodEsasDiv .foodBala1 > div > h2 {
+        font-size: 2.8rem;
+    }
+
+    .foodEsasDiv .foodBala1 h3 {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .foodEsasDiv .foodBala1 .foodButtonDiv {
+        gap: 20px;
+    }
+
+    .foodEsasDiv .foodBala1 .foodButtonDiv a:nth-child(1) {
+        padding: 12px 22px;
+    }
+
+    .foodEsasDiv .foodBala1 .foodButtonDiv .foodButtonIconDiv i {
+        font-size: 2rem;
+    }
+
+    .foodEsasDiv .foodBala1 .foodButtonDiv .foodButtonIconDiv h2 {
+        font-size: 1rem;
+    }
+
+    .aboutUsEsasDiv .aboutUstDiv > h2,
+    .testEasasDiv .testEasasDivTxt h3:nth-child(2),
+    .eventsEsasDiv .eventTxtDiv span:nth-child(2),
+    .chef_esas .chef_ust h2,
+    .withUsEsas .withUsUst h2,
+    .contactEsas .contactUst h2 {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas {
+        padding: 10px 20px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild1 {
+        height: 400px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild1 .aboutChild1_melulat {
+        width: 90%;
+        padding: 25px 10px;
+        bottom: 25px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild1 .aboutChild1_melulat h3 {
+        font-size: 1.5rem;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 .aboutChild2_ic1 h2 {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 .aboutChild2_ic1 h3 {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        padding-left: 10px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild2 .aboutChild2_ic2 .aboutChild2_ic2_btn {
+        width: 65px;
+        height: 65px;
+    }
+
+    .yummyEsas {
+        padding: 45px 0;
+    }
+
+    .yummyEsas .yummyEsas2 {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .yummyEsas .yummyEsas2 .yummy_cild,
+    .yummyEsas .yummyEsas2 .yummy_cild:nth-child(1) {
+        width: 100%;
+        padding: 35px 20px;
+    }
+
+    .yummyEsas .yummyEsas2 .yummy_cild:nth-child(2):hover,
+    .yummyEsas .yummyEsas2 .yummy_cild:nth-child(3):hover,
+    .yummyEsas .yummyEsas2 .yummy_cild:nth-child(4):hover {
+        scale: 1.02;
+    }
+
+    .imgDivEsasOrta {
+        height: auto;
+        min-height: 220px;
+        background-size: cover;
+    }
+
+    .imgDivEsasOrta .imgDivEsasOrtaTxt {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 30px 15px;
+    }
+
+    .testEasasDiv {
+        padding: 70px 15px;
+    }
+
+    .testEasasDiv .testEasasDivTxt {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .testEasasDiv .testEasasDiv2 .testSolDiv {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .testEasasDiv .testEasasDiv2 .testSolDiv::before {
+        height: 100%;
+    }
+
+    .testEasasDiv .testEasasDiv2 .testSolDiv .testSolDiv2 {
+        width: 100%;
+    }
+
+    .testEasasDiv .testEasasDiv2 .testSolDiv .testSolDiv3 {
+        width: 100%;
+    }
+
+    .testSagDiv {
+        width: 140px;
+        height: 140px;
+    }
+
+    .eventsEsasDiv {
+        padding: 60px 0;
+    }
+
+    .eventsEsasDiv .eventTxtDiv {
+        padding: 0 15px 40px;
+        text-align: center;
+    }
+
+    .eventsEsasDiv .eventImgEsas {
+        height: 450px;
+        background-size: cover;
+    }
+
+    .eventsEsasDiv .eventImgEsas .img_txtDiv .img_txtDiv_icDiv {
+        padding: 20px;
+    }
+
+    .eventsEsasDiv .eventImgEsas .img_txtDiv .img_txtDiv_icDiv span {
+        font-size: 1.6rem;
+    }
+
+    .eventsEsasDiv .eventImgEsas .img_txtDiv::after {
+        left: 20px;
+        bottom: 30px;
+    }
+
+    .chef_esas {
+        padding: 60px 0;
+    }
+
+    .chef_esas .chef_orta_esas {
+        flex-direction: column;
+        padding: 35px 20px;
+    }
+
+    .chef_esas .chef_orta_esas .chef_orta {
+        width: 100%;
+    }
+
+    .chef_esas .chef_orta_esas .chef_orta img:nth-child(2) {
+        bottom: 280px;
+    }
+
+    .withUsEsas {
+        padding: 30px 0;
+    }
+
+    .withUsEsas .withUsOrtaEsas {
+        width: 92%;
+    }
+
+    .withUsEsas .withUsOrtaEsas img {
+        height: 230px;
+    }
+
+    .withUsEsas .withUsOrtaEsas .withUsOrtaEsasSag {
+        padding: 20px 12px;
+    }
+
+    .withUsEsas .withUsOrtaEsas .withUsOrtaEsasSag .withUsOrtaEsasSag1 {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .withUsEsas .withUsOrtaEsas .withUsOrtaEsasSag .withUsOrtaEsasSag1 input {
+        width: 100%;
+    }
+
+    .withUsEsas .withUsOrtaEsas .withUsOrtaEsasSag .withUsOrtaEsasSag2 textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contactEsas {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .contactEsas .contactXerite {
+        width: 92%;
+        height: 300px;
+    }
+
+    .contactEsas .contact-alt1 {
+        width: 92%;
+    }
+
+    .contactEsas .contact-alt1 .contact-alt1-child {
+        width: 100%;
+        padding: 15px 10px;
+    }
+
+    .contactEsas .contact-alt1 .contact-alt1-child .contactRedDiv {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        margin-left: 5px;
+    }
+
+    .contactEsas .contact-alt1 .contact-alt1-child .contactRedDivSagTxt {
+        margin-left: 12px;
+    }
+
+    .contactEsas .contact-alt1 .contact-alt1-child .contactRedDivSagTxt span {
+        font-size: 1.1rem;
+    }
+
+    .contactEsas .contact-alt1 .contact-alt1-child .contactRedDivSagTxt h3 {
+        font-size: 0.85rem;
+        overflow-wrap: anywhere;
+    }
+
+    .contactEsas .contact-finis {
+        width: 92%;
+        padding: 20px 10px;
+    }
+
+    .contactEsas .contact-finis input,
+    .contactEsas .contact-finis .txtInp1,
+    .contactEsas .contact-finis textarea {
+        width: 100%;
+    }
+
+    .contactEsas .contact-finis textarea {
+        max-width: 100%;
+    }
+
+    .contactEsas .contact-finis button {
+        padding: 13px 35px;
+    }
+
+    .finis {
+        padding: 25px 10px;
+    }
+
+    .finis .finis_ust {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        gap: 25px;
+    }
+
+    .finis .finis_ust .finis_ust_child,
+    .finis .finis_ust .finis_ust_sag_esas {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .finis .finis_ust .finis_ust_child .finis_ust_child_alt {
+        padding-left: 12px;
+    }
+
+    .finis_alt {
+        padding: 35px 15px;
+        text-align: center;
+    }
+
+    .finis_alt span {
+        font-size: 0.85rem;
+    }
+}
+
+
+/* ================================
+   EXTRA SMALL MOBILE - 375px
+================================ */
+
+@media (max-width: 375px) {
+
+    .menuUstdiv {
+        padding: 12px 10px;
+    }
+
+    .menuUstdiv .UlEsasDiv {
+        gap: 10px;
+    }
+
+    .menuUstdiv .UlEsasDiv a {
+        font-size: 0.72rem;
+    }
+
+    .menuUstdiv .ustSolBtnDivEsas a {
+        padding: 7px 10px;
+        font-size: 0.68rem;
+    }
+
+    .foodEsasDiv .foodBala1 > div > h2 {
+        font-size: 2.4rem;
+    }
+
+    .foodEsasDiv .foodBala1 .foodButtonDiv {
+        gap: 12px;
+    }
+
+    .foodEsasDiv .foodBala1 .foodButtonDiv a:nth-child(1) {
+        padding: 10px 18px;
+        font-size: 0.85rem;
+    }
+
+    .imgDivEsasOrta .imgDivEsasOrtaTxt {
+        font-size: 0.8rem;
+        gap: 20px;
+    }
+
+    .aboutUsEsasDiv .aboutUstOrtaEsas .aboutChild1 {
+        height: 330px;
+    }
+
+    .chef_esas .chef_orta_esas .chef_orta img:nth-child(2) {
+        bottom: 280px;
+    }
+}
